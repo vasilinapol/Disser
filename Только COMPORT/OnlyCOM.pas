@@ -16,6 +16,7 @@ const
   XRes = 9;
   YRes = 9;
   XYRes =35;
+  new =45;
 
   
 type
