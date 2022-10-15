@@ -1,0 +1,244 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 736
+  ClientWidth = 1533
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 360
+    Top = 120
+    Width = 31
+    Height = 13
+    Caption = 'Label1'
+  end
+  object Label2: TLabel
+    Left = 344
+    Top = 40
+    Width = 31
+    Height = 13
+    Caption = 'Label2'
+  end
+  object Button1: TButton
+    Left = 1326
+    Top = 281
+    Width = 145
+    Height = 81
+    Caption = #1054#1090#1082#1088#1099#1090#1100' COM'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Memo1: TMemo
+    Left = 605
+    Top = 8
+    Width = 950
+    Height = 105
+    Lines.Strings = (
+      '')
+    ReadOnly = True
+    ScrollBars = ssBoth
+    TabOrder = 1
+    WordWrap = False
+  end
+  object Button2: TButton
+    Left = 1326
+    Top = 384
+    Width = 145
+    Height = 81
+    Caption = #1047#1072#1082#1088#1099#1090#1100' COM'
+    TabOrder = 2
+    OnClick = Button2Click
+  end
+  object Memo2: TMemo
+    Left = 605
+    Top = 294
+    Width = 724
+    Height = 434
+    ScrollBars = ssBoth
+    TabOrder = 3
+    WordWrap = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 1198
+    Top = 121
+    Width = 113
+    Height = 17
+    Caption = 'Connected'
+    Enabled = False
+    TabOrder = 4
+  end
+  object Edit1: TEdit
+    Left = 15
+    Top = 591
+    Width = 89
+    Height = 16
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -7
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+    Visible = False
+  end
+  object CheckBox1: TCheckBox
+    Left = 24
+    Top = 440
+    Width = 145
+    Height = 17
+    Caption = #1054#1090#1089#1083#1077#1078#1080#1074#1072#1085#1080#1077' '#1087#1086#1079#1080#1094#1080#1080
+    TabOrder = 6
+  end
+  object com: TPlot3D
+    AlignWithMargins = True
+    Left = 24
+    Top = 8
+    Width = 977
+    Height = 691
+    Cursor = crHandPoint
+    AutoCenter = True
+    BoundBoxStyle = bbFaces
+    CaptionX = 'X'
+    CaptionY = 'Y'
+    CaptionZ = #1053#1072#1087#1088#1103#1078#1077#1085#1085#1086#1089#1090#1100
+    CentX = 488
+    CentY = 345
+    ColorFrame = clGray
+    ColorBakGnd = clCream
+    ColorCodeAvg = True
+    ColorCubeFrame = 4210752
+    ColorCubeHidLin = 11579568
+    ColorCubeFaceLow = clSilver
+    ColorCubeFaceHigh = 16707310
+    ColorXCoords = clBlue
+    ColorYCoords = clBlue
+    ColorZCoords = clBlack
+    ColorMesh = clHighlight
+    ColorHigh = clNavy
+    ColorMid = clMenuHighlight
+    ColorLow = clBlue
+    ColorScaleHigh = 20.000000000000000000
+    ColorScaleLow = -1.000000000000000000
+    ColorCodingMode = ccmThreeColors
+    ColorScheme = csSystem
+    DecPlaceX = 0
+    DecPlaceY = 0
+    DecPlaceZ = 1
+    FrameStyle = fsLowered
+    LabDistX = 20
+    LabDistY = 20
+    LabDistZ = 60
+    MeshVisible = True
+    MeshKind = mkGrid
+    Magnification = 1.000000000000000000
+    MouseAction = maRotate
+    MinTickX = 7
+    MinTickY = 7
+    MinTickZ = 2
+    RangeXLow = -1.000000000000000000
+    RangeYLow = -1.000000000000000000
+    RangeZLow = -1.000000000000000000
+    RangeXHigh = 7.000000000000000000
+    RangeYHigh = 7.000000000000000000
+    RangeZHigh = 10.000000000000000000
+    ScaleFactX = 1.000000000000000000
+    ScaleFactY = 1.000000000000000000
+    ScaleFactZ = 1.000000000000000000
+    ViewAngleX = 66.000000000000000000
+    ViewAngleZ = 135.000000000000000000
+    VisibleXCoords = True
+    VisibleYCoords = True
+    VisibleZCoords = True
+    OnDataRendered = comDataRendered
+    OnBeforeRenderPolygon = comBeforeRenderPolygon
+    OnMouseMoveOverPlot = comMouseMoveOverPlot
+  end
+  object Panel1: TPanel
+    Left = 1168
+    Top = 613
+    Width = 209
+    Height = 97
+    TabOrder = 8
+    object Label3: TLabel
+      Left = 9
+      Top = 15
+      Width = 71
+      Height = 13
+      Caption = #1050#1086#1086#1088#1076#1080#1085#1072#1090#1072' '#1061
+      Layout = tlCenter
+    end
+    object Label4: TLabel
+      Left = 152
+      Top = 20
+      Width = 71
+      Height = 13
+      Caption = #1050#1086#1086#1088#1076#1080#1085#1072#1090#1072' Y'
+      Layout = tlCenter
+    end
+    object Label5: TLabel
+      Left = 9
+      Top = 67
+      Width = 80
+      Height = 13
+      Caption = #1053#1072#1087#1088#1103#1078#1077#1085#1085#1086#1089#1090#1100
+      Layout = tlCenter
+    end
+    object Edit2: TEdit
+      Left = 152
+      Top = 65
+      Width = 41
+      Height = 21
+      TabOrder = 0
+    end
+    object Edit3: TEdit
+      Left = 152
+      Top = 39
+      Width = 41
+      Height = 21
+      TabOrder = 1
+    end
+    object Edit4: TEdit
+      Left = 152
+      Top = 12
+      Width = 41
+      Height = 21
+      TabOrder = 2
+    end
+  end
+  object Button3: TButton
+    Left = 1198
+    Top = 160
+    Width = 273
+    Height = 97
+    Caption = #1054#1095#1080#1089#1090#1080#1090#1100
+    TabOrder = 9
+    OnClick = Button3Click
+  end
+  object StringGrid1: TStringGrid
+    Left = 1031
+    Top = 429
+    Width = 404
+    Height = 178
+    ColCount = 6
+    FixedCols = 0
+    RowCount = 6
+    FixedRows = 0
+    TabOrder = 10
+  end
+  object CommPortDriver1: TCommPortDriver
+    Port = pnCustom
+    PortName = '\\.\COM3'
+    OnReceiveData = CommPortDriver1ReceiveData
+    OnReceivePacket = CommPortDriver1ReceiveData
+    Left = 48
+    Top = 632
+  end
+end
