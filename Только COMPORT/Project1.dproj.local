@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899.12.30 00:00:00.000.382,=C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.522,=C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.141,=C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>1899.12.30 00:00:00.000.479,=C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.959,C:\Users\Vasilina\Desktop\The Great Folder\Учеба\ДИПЛОМ\Диплом_делфи_программа\Только COMPORT\OnlyCOM.pas=C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.198,C:\Users\Vasilina\Desktop\The Great Folder\Учеба\ДИПЛОМ\Диплом_делфи_программа\Только COMPORT\Project1.dproj=C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.959,C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\Vasilina\Desktop\The Great Folder\Учеба\ДИПЛОМ\Диплом_делфи_программа\Только COMPORT\OnlyCOM.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.198,C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\Vasilina\Desktop\The Great Folder\Учеба\ДИПЛОМ\Диплом_делфи_программа\Только COMPORT\Project1.dproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.224,=C:\Users\Vasilina\Desktop\The Great Folder\Учеба\ДИПЛОМ\Диплом_делфи_программа\Только COMPORT\Unit2.pas</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.959,C:\Users\Vasilina\Desktop\The Great Folder\Учеба\ДИПЛОМ\Диплом_делфи_программа\Только COMPORT\OnlyCOM.dfm=C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.959,C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\Vasilina\Desktop\The Great Folder\Учеба\ДИПЛОМ\Диплом_делфи_программа\Только COMPORT\OnlyCOM.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.382,=C:\Users\Vasilina\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>
